@@ -14876,10 +14876,10 @@ var qn = `/assets/logo-Ck8BWwUY.png`,
     { label: `Cox's Bazar Project`, path: `/project` },
     { label: `Ownership Model`, path: `/ownership` },
     { label: `Financial Model`, path: `/financial` },
-    { label: `Legal & Transparency`, path: `/legal` },
     { label: `FAQ`, path: `/faq` },
     { label: `Contact`, path: `/contact` },
   ],
+  // " label: `Legal & Transparency`, path: `/legal` ,"
   Xn = () => {
     let [e, t] = (0, _.useState)(!1),
       [n, r] = (0, _.useState)(!1),
@@ -18476,7 +18476,7 @@ approx. annual return`,
                   (0, M.jsxs)(`h1`, {
                     className: `own-hero__title`,
                     children: [
-                      `The Nature @ Cox’s Bazar`,
+                      `The Nature Cox’s Bazar `,
                       (0, M.jsx)(`br`, {}),
                       (0, M.jsx)(`span`, {
                         className: `own-hero__title-highlight`,
@@ -18536,7 +18536,7 @@ approx. annual return`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `own-model__text`,
-                        children: `At The Nature @ Cox’s Bazar, buyers own a sea-view hotel suite under the developer’s ownership model, and a portion of the project land matching the suite is registered in their name at registration. The building stands on 160 decimals of land on Marine Drive at Inani Beach, with a basement, ground floor and 11 suite floors.`,
+                        children: `At The Nature Cox’s Bazar, buyers own a sea-view hotel suite under the developer’s ownership model, and a portion of the project land matching the suite is registered in their name at registration. The building stands on 160 decimals of land on Marine Drive at Inani Beach, with a basement, ground floor and 11 suite floors.`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `own-model__text`,
@@ -18911,7 +18911,7 @@ approx. annual return`,
                     children: [
                       (0, M.jsx)(`div`, {
                         className: `section-label section-label--light`,
-                        children: `SUITE OWNERSHIP | THE NATURE @ COX'S BAZAR`,
+                        children: `SUITE OWNERSHIP | THE NATURE COX'S BAZAR`,
                       }),
                       (0, M.jsx)(`h2`, {
                         className: `proj-cta__title`,
@@ -18990,7 +18990,7 @@ fa = [
   {
     icon: br,
     title: `Owner Stay or Hotel Run`,
-    desc: `The owner can stay in it or have it run as part of the hotel and earn a share of hotel income.`,
+    desc: `Owners can stay at the hotel subject to availability (paying applicable service charges, with nights adjusted against their own returns) or have it run in the hotel pool to earn pooled income.`,
   },
 ],
 pa = [
@@ -19167,7 +19167,7 @@ ga = () => {
                   (0, M.jsxs)(`h1`, {
                     className: `fin-hero__title`,
                     children: [
-                      `The Nature @ Cox’s Bazar`,
+                      `The Nature Cox’s Bazar `,
                       (0, M.jsx)(`br`, {}),
                       (0, M.jsx)(`span`, {
                         className: `text-gold`,
@@ -20491,46 +20491,183 @@ Policy`,
       category: `Ownership & Legal`,
       questions: [
         {
-          q: `What exactly is Land Share Ownership?`,
-          a: `Land Share Ownership means you legally own a proportionate share of the resort's land. Your name will be registered in the official government records (Mutation), ensuring absolute legal security of your asset.`,
+          q: `What exactly do I own?`,
+          a: `You own your suite under the developer's ownership model, together with a portion of the project land in proportion to your suite's size. Both the suite and the land portion are registered in your name at registration. And, the operation of the hotel will be managed by a professional management team.`,
         },
         {
-          q: `Can I sell or transfer my land share in the future?`,
-          a: `Yes, as the legal owner of the land share, you have the right to transfer, sell, or pass it on to your heirs, subject to the exit policy outlined in the final agreement.`,
+          q: `Can I buy a suite together with others?`,
+          a: `Yes. Presidential and Superior suites can be shared by up to 10 co-owners, and all other suites by up to 6. Each co-owner owns an equal share of the suite and its cost. Their share of the suite and their matching land portion are registered in their own name. Group ownership is offered on floors 2 to 6, subject to availability.`,
         },
         {
-          q: `Are there any hidden legal fees?`,
-          a: `No. We maintain a transparent cost structure. All costs related to registration, mutation, and documentation are clearly communicated upfront before any agreement is signed.`,
-        },
-      ],
-    },
-    {
-      category: `Financial & Benefits`,
-      questions: [
-        {
-          q: `How does the revenue sharing model work?`,
-          a: `Once the resort is operational, net distributable benefits (revenue minus operational costs and reserve funds) are proportionately distributed among the land share owners based on the finalized benefit agreement.`,
+          q: `When will the suite and land be registered in my name?`,
+          a: `Registration takes place once you have paid 40% (individual) or 60% (group) of the price. At registration, you receive ownership of your suite along with your proportionate share of land, registered in your name. You must also hand over 14 security cheques, each covering 3 months of installments, for the remaining balance. The booking payment alone does not transfer ownership, and registration does not release you from the remaining payments.`,
         },
         {
-          q: `Are the returns guaranteed?`,
-          a: `No. Since this is a hospitality business, returns are based on operational performance, occupancy rates, and market conditions. However, the long-term capital appreciation of the land share provides significant underlying value.`,
-        },
-        {
-          q: `Do I get to stay at the resort for free?`,
-          a: `Yes, depending on the chosen benefit model, owners generally receive complimentary yearly stay privileges or heavily discounted usage rights at The Nature, subject to availability.`,
+          q: `How do I book a suite?`,
+          a: `Contact our sales team to choose your suite category and unit, or a share of a suite if you're buying with others. You then pay 20% as booking money and sign the agreement. Our team will guide you through the payment schedule and registration.`,
         },
       ],
     },
     {
-      category: `Project & Operation`,
+      category: `Pricing & Investment`,
       questions: [
         {
-          q: `Who will manage the resort once built?`,
-          a: `The resort will be professionally managed by an experienced hospitality operation team under 'The Nature' brand to ensure 5-star service standards.`,
+          q: `How much does a suite cost?`,
+          a: `Prices range from BDT 63.65 lakh (Classic) to BDT 3.06 crore (Presidential). Each price is the suite size multiplied by its category's rate per sq ft.`,
         },
         {
-          q: `When will the project be completed?`,
-          a: `The exact development timeline will be detailed in the project offer note. We are committed to steady, responsible development with regular progress updates to all owners.`,
+          q: `What does the price include?`,
+          a: `The price is fixed and covers the complete suite, from foundation to a fully furnished room. The Nature delivers the whole project within this committed price. Registration fees and government charges are paid separately.`,
+        },
+        {
+          q: `What is the payment plan?`,
+          a: (0, M.jsxs)(`div`, {
+            className: `faq-payment-table-wrapper`,
+            children: [
+              (0, M.jsxs)(`table`, {
+                style: {
+                  width: `100%`,
+                  borderCollapse: `collapse`,
+                  marginTop: `0.5rem`,
+                  fontSize: `0.92rem`,
+                },
+                children: [
+                  (0, M.jsx)(`thead`, {
+                    children: (0, M.jsxs)(`tr`, {
+                      style: {
+                        borderBottom: `2px solid var(--color-gold, #c5a059)`,
+                        textAlign: `left`,
+                      },
+                      children: [
+                        (0, M.jsx)(`th`, {
+                          style: {
+                            padding: `0.6rem 0.5rem`,
+                            color: `var(--color-gold, #c5a059)`,
+                            fontWeight: `600`,
+                          },
+                          children: `Stage`,
+                        }),
+                        (0, M.jsx)(`th`, {
+                          style: {
+                            padding: `0.6rem 0.5rem`,
+                            color: `var(--color-gold, #c5a059)`,
+                            fontWeight: `600`,
+                            textAlign: `center`,
+                          },
+                          children: `Individual`,
+                        }),
+                        (0, M.jsx)(`th`, {
+                          style: {
+                            padding: `0.6rem 0.5rem`,
+                            color: `var(--color-gold, #c5a059)`,
+                            fontWeight: `600`,
+                            textAlign: `center`,
+                          },
+                          children: `Group`,
+                        }),
+                      ],
+                    }),
+                  }),
+                  (0, M.jsxs)(`tbody`, {
+                    children: [
+                      (0, M.jsxs)(`tr`, {
+                        style: { borderBottom: `1px solid rgba(0, 0, 0, 0.08)` },
+                        children: [
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem` },
+                            children: `Booking`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `20%`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `20%`,
+                          }),
+                        ],
+                      }),
+                      (0, M.jsxs)(`tr`, {
+                        style: { borderBottom: `1px solid rgba(0, 0, 0, 0.08)` },
+                        children: [
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem` },
+                            children: `Registration`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `20%`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `40%`,
+                          }),
+                        ],
+                      }),
+                      (0, M.jsxs)(`tr`, {
+                        style: { borderBottom: `1px solid rgba(0, 0, 0, 0.08)` },
+                        children: [
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem` },
+                            children: `Foundation`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `10%`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `10%`,
+                          }),
+                        ],
+                      }),
+                      (0, M.jsxs)(`tr`, {
+                        children: [
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem` },
+                            children: `Installments (42 months)`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `50%`,
+                          }),
+                          (0, M.jsx)(`td`, {
+                            style: { padding: `0.6rem 0.5rem`, textAlign: `center` },
+                            children: `30%`,
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        },
+        {
+          q: `What return can I expect, and how is it paid?`,
+          a: `An approximate return of 13% to 16% a year has been calculated, based on an average hotel occupancy of 50% a year. All suite rental income after the service charge is pooled. It is then shared among owners in proportion to their investment, so every owner earns the same rate on what they invested. Payouts are proposed quarterly once the hotel begins commercial operations. Returns are projections and are not guaranteed.`,
+        },
+      ],
+    },
+    {
+      category: `Project & Hotel Operations`,
+      questions: [
+        {
+          q: `Where is the project and what is being built?`,
+          a: `The Nature stands on 160 decimals of land on Marine Drive at Inani Beach, Cox's Bazar, with an infinity sea view. The building has a basement, ground floor and 11 floors, with 278 suites in eight categories from 670 to 1,700 sq ft.`,
+        },
+        {
+          q: `Who will run the hotel?`,
+          a: `The Nature's own dedicated hospitality team will run the hotel. This team handles the overall management and operation.`,
+        },
+        {
+          q: `Can I stay at the hotel as an owner?`,
+          a: `Yes. Suite owners can stay at the hotel, subject to room availability. You pay the applicable service charges for your stay. The rental income for the nights you stay is adjusted against your own returns. This keeps things fair for all owners, because other owners' earnings are not reduced by your stay.`,
+        },
+        {
+          q: `When will construction start and when will I get my suite?`,
+          a: `Construction is planned to start in February 2027, with tentative handover in August 2030 plus a 6-month grace period. Your suite is handed over once the full price is paid, construction is complete and all legal formalities are done.`,
         },
       ],
     },
@@ -20640,7 +20777,7 @@ Policy`,
                                 }),
                                 (0, M.jsx)(`div`, {
                                   className: `faq-item__content-wrapper`,
-                                  style: { maxHeight: o ? `200px` : `0` },
+                                  style: { maxHeight: o ? `600px` : `0` },
                                   children: (0, M.jsx)(`div`, {
                                     className: `faq-item__answer`,
                                     children: e.a,
