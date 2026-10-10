@@ -18333,135 +18333,103 @@ let revenueModelData = [
   ia = [
     {
       icon: hr,
-      label: `Structured
-Ownership`,
+      label: `278
+suites in 8 categories`,
     },
     {
       icon: mr,
-      label: `Professional
-Management`,
+      label: `670–1,700
+sq ft per suite`,
     },
     {
       icon: si,
-      label: `Transparent
-Process`,
+      label: `160 Decimals
+Land on Marine Drive`,
     },
     {
       icon: vi,
-      label: `Long-Term
-Value Creation`,
+      label: `13–16%
+approx. annual return`,
     },
   ],
   aa = [
-    `Land selection & ownership`,
-    `Registration & legal process`,
-    `Planning & development`,
-    `Construction & project setup`,
+    `Owners per suite: 1 (Any available suite)`,
+    `Whole suite, plus its land portion registered in buyer's name at registration`,
+    `Booking: 20% | Registration: 20% (Suite & land registered once 40% is paid)`,
+    `Foundation: 10% | Installments: 50% over 42 months (with 14 security cheques)`,
   ],
   oa = [
-    `Professional hospitality operation`,
-    `Guest service & facility management`,
-    `Revenue generation`,
-    `Owner benefit distribution & reporting`,
+    `Owners per suite: 2 to 10 (Presidential, Superior); 2 to 6 (all others)`,
+    `An equal share of suite & cost, plus matching land portion registered at registration`,
+    `Booking: 20% | Registration: 40% (Suite & land registered once 60% is paid)`,
+    `Foundation: 10% | Installments: 30% over 42 months (with 14 security cheques)`,
   ],
   sa = [
     {
       icon: $r,
-      title: `Consultation`,
-      desc: `Understand the model, project, and opportunities`,
-    },
-    {
-      icon: Lr,
-      title: `Offer Understanding`,
-      desc: `Review project concept, location, and offer details`,
-    },
-    {
-      icon: Qr,
-      title: `Land Share Selection`,
-      desc: `Choose your preferred land share`,
-    },
-    {
-      icon: Nr,
-      title: `Booking & Payment`,
-      desc: `Complete booking and follow the payment schedule`,
-    },
-    {
-      icon: ni,
-      title: `Documentation & Agreement`,
-      desc: `Sign ownership agreement and related documents`,
+      title: `Booking`,
+      desc: `At booking. Individual 20%, Group 20% (Paid 20% / 20%).`,
     },
     {
       icon: hi,
-      title: `Registration & Mutation`,
-      desc: `Land registration, mutation & legal ownership confirmation`,
+      title: `Registration`,
+      desc: `Suite registered once 40% (individual) or 60% (group) is paid. 14 cheques handed over.`,
     },
     {
       icon: Ur,
-      title: `Development & Construction`,
-      desc: `Design, approval, construction & project implementation`,
+      title: `Foundation`,
+      desc: `When foundation work begins. Individual 10%, Group 10% (Paid 50% / 70%).`,
     },
     {
-      icon: li,
-      title: `Resort Setup & Preparation`,
-      desc: `Resort setup, staffing & soft opening`,
-    },
-    {
-      icon: gi,
-      title: `Professional Operation`,
-      desc: `Full operation under The Nature brand`,
+      icon: Nr,
+      title: `Installments`,
+      desc: `42 monthly payments. Individual 50%, Group 30% (Paid 100% / 100%).`,
     },
     {
       icon: yr,
-      title: `Reporting & Owner Benefits`,
-      desc: `Revenue reporting & owner benefit distribution`,
+      title: `Handover`,
+      desc: `Full payment and build complete. Tentative August 2030 (With documents).`,
     },
   ],
   ca = [
-    `Premium clients looking for long-term asset value`,
-    `Land investors seeking structured ownership`,
-    `People who want future hospitality benefits`,
-    `Families who value usage & experience`,
-    `Buyers who prefer transparent, legal, and brand-backed projects`,
+    `<strong>Equal Suite Shares:</strong> In group ownership, a suite is split into equal shares and each co-owner buys one under the developer ownership model.`,
+    `<strong>Matching Land Registration:</strong> The process is the same as individual ownership: at registration, the matching portion of land is registered in each co-owner's name.`,
+    `<strong>Maximum Shares:</strong> 10 for Presidential and Superior suites (A to J), 6 for every other category (A to F).`,
+    `<strong>Documented Inventory:</strong> Every suite on floors 2 to 6 is listed share by share (e.g. 301A to 301J) based on availability.`,
   ],
   la = [
     {
       icon: Rr,
-      title: `Legally Documented
-Ownership`,
+      title: `<span class="card-head">13% to 16% Return</span><span class="card-desc">Approx. annual return (based on 50% average occupancy)</span>`,
     },
     {
       icon: mr,
-      title: `Professional
-Resort Operation`,
+      title: `<span class="card-head">Pooled Yearly Income</span><span class="card-desc">Shared among all owners by investment proportion</span>`,
     },
     {
       icon: dr,
-      title: `Potential
-Revenue Participation`,
+      title: `<span class="card-head">Equal Return Rate</span><span class="card-desc">Each owner gets same share of income as investment share</span>`,
     },
     {
       icon: vi,
-      title: `Long-Term Asset
-Appreciation Opportunity`,
+      title: `<span class="card-head">Quarterly Payouts</span><span class="card-desc">Proposed quarterly, starting after hotel begins operations</span>`,
     },
     {
       icon: Wr,
-      title: `Usage Benefits
-& Privileges*`,
+      title: `<span class="card-head">Group-Owned Suites</span><span class="card-desc">Each co-owner is paid on their own investment, the same way</span>`,
     },
     {
       icon: Fr,
-      title: `Transparent
-Reporting & Communication`,
+      title: `<span class="card-head">Return Projections</span><span class="card-desc">Actual payouts depend on operating results; not guaranteed</span>`,
     },
   ],
   L = [
-    `Final agreement`,
-    `Legal verification`,
-    `Approved financial structure`,
-    `Operational performance`,
-    `Taxes, charges & maintenance cost`,
-    `Market conditions & occupancy`,
+    `Full price is paid, construction is finished, and all contractual and legal formalities are done.`,
+    `Construction is planned to start in February 2027.`,
+    `Tentative handover is August 2030.`,
+    `At registration, the client hands over 14 bank cheques, each covering 3 months of installments, for the full balance.`,
+    `Registering the land share does not release the client from any outstanding payment.`,
+    `Registration fees and government charges are additional.`,
   ],
   ua = () => {
     let e = (0, _.useRef)(null);
@@ -18503,26 +18471,23 @@ Reporting & Communication`,
                 children: [
                   (0, M.jsx)(`div`, {
                     className: `section-label section-label--light`,
-                    children: `OWNERSHIP MODEL`,
+                    children: `SUITE OWNERSHIP | CUSTOMER INFORMATION`,
                   }),
                   (0, M.jsxs)(`h1`, {
                     className: `own-hero__title`,
                     children: [
-                      `From Land Share`,
+                      `The Nature @ Cox’s Bazar`,
                       (0, M.jsx)(`br`, {}),
                       (0, M.jsx)(`span`, {
                         className: `own-hero__title-highlight`,
-                        children: `Ownership`,
+                        children: `Ownership Model`,
                       }),
-                      ` to Professionally Managed Hospitality Operation`,
                     ],
                   }),
                   (0, M.jsxs)(`p`, {
                     className: `own-hero__desc`,
                     children: [
-                      `A transparent, structured, and secure ownership model`,
-                      (0, M.jsx)(`br`, {}),
-                      `by The Nature, an initiative of The Premium Homes Ltd.`,
+                      `How ownership, payments, land registration and returns work · October 2026`,
                     ],
                   }),
                   (0, M.jsx)(`div`, {
@@ -18567,15 +18532,15 @@ Reporting & Communication`,
                     children: [
                       (0, M.jsx)(`div`, {
                         className: `section-label`,
-                        children: `WHAT IS LAND SHARE OWNERSHIP?`,
+                        children: `01 OVERVIEW & 02 WHAT THE BUYER OWNS`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `own-model__text`,
-                        children: `Land Share Ownership is a participation model where selected clients own a share of land within a hotel or resort project.`,
+                        children: `At The Nature @ Cox’s Bazar, buyers own a sea-view hotel suite under the developer’s ownership model, and a portion of the project land matching the suite is registered in their name at registration. The building stands on 160 decimals of land on Marine Drive at Inani Beach, with a basement, ground floor and 11 suite floors.`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `own-model__text`,
-                        children: `The first phase focuses on land ownership and project development. The second phase focuses on professional hospitality operation under The Nature brand.`,
+                        children: `There are 278 suites in eight categories, from 670 to 1,700 sq ft. A suite can be bought by one person or shared by a group. The owner can stay in it or have it run as part of the hotel and earn a share of hotel income.`,
                       }),
                       (0, M.jsxs)(`div`, {
                         className: `own-model__shield-box`,
@@ -18590,11 +18555,11 @@ Reporting & Communication`,
                           (0, M.jsxs)(`p`, {
                             className: `own-model__shield-text`,
                             children: [
-                              `You own the land share.`,
+                              `Paying the booking amount alone`,
                               (0, M.jsx)(`br`, {}),
-                              `We develop, operate, and manage`,
+                              `does not transfer the land share`,
                               (0, M.jsx)(`br`, {}),
-                              `the resort professionally.`,
+                              `or the suite.`,
                             ],
                           }),
                         ],
@@ -18606,7 +18571,7 @@ Reporting & Communication`,
                     children: [
                       (0, M.jsx)(`div`, {
                         className: `section-label`,
-                        children: `THE TWO-STAGE MODEL`,
+                        children: `03 TWO WAYS TO OWN`,
                       }),
                       (0, M.jsxs)(`div`, {
                         className: `own-model__stages`,
@@ -18623,14 +18588,14 @@ Reporting & Communication`,
                               }),
                               (0, M.jsx)(`div`, {
                                 className: `own-model__stage-label`,
-                                children: `STAGE 1`,
+                                children: `OPTION 1`,
                               }),
                               (0, M.jsxs)(`h3`, {
                                 className: `own-model__stage-title`,
                                 children: [
-                                  `Land Share Ownership`,
+                                  `Individual`,
                                   (0, M.jsx)(`br`, {}),
-                                  `& Development`,
+                                  `Ownership`,
                                 ],
                               }),
                               (0, M.jsx)(`ul`, {
@@ -18673,14 +18638,14 @@ Reporting & Communication`,
                               }),
                               (0, M.jsx)(`div`, {
                                 className: `own-model__stage-label`,
-                                children: `STAGE 2`,
+                                children: `OPTION 2`,
                               }),
                               (0, M.jsxs)(`h3`, {
                                 className: `own-model__stage-title`,
                                 children: [
-                                  `Hotel/Resort Operation`,
+                                  `Group`,
                                   (0, M.jsx)(`br`, {}),
-                                  `Under The Nature Brand`,
+                                  `Ownership`,
                                 ],
                               }),
                               (0, M.jsx)(`ul`, {
@@ -18722,11 +18687,11 @@ Reporting & Communication`,
                   children: [
                     (0, M.jsx)(`div`, {
                       className: `section-label`,
-                      children: `STEP-BY-STEP OWNERSHIP PROCESS`,
+                      children: `04 PAYMENTS AND LAND REGISTRATION`,
                     }),
                     (0, M.jsx)(`h2`, {
                       className: `section-title`,
-                      children: `Your Journey from Ownership to Operation`,
+                      children: `Suite is registered once 40% (individual) or 60% (group) is paid`,
                     }),
                   ],
                 }),
@@ -18775,7 +18740,7 @@ Reporting & Communication`,
                       children: [
                         (0, M.jsx)(`div`, {
                           className: `section-label`,
-                          children: `WHO IS THIS MODEL FOR?`,
+                          children: `05 HOW GROUP OWNERSHIP WORKS`,
                         }),
                         (0, M.jsx)(`ul`, {
                           className: `own-process__who-list`,
@@ -18786,10 +18751,13 @@ Reporting & Communication`,
                                 children: [
                                   (0, M.jsx)(wr, {
                                     size: 18,
-                                    className: `text-navy`,
+                                    className: `text-gold`,
                                   }),
-                                  ` `,
-                                  e,
+                                  (0, M.jsx)(`span`, {
+                                    dangerouslySetInnerHTML: {
+                                      __html: e,
+                                    },
+                                  }),
                                 ],
                               },
                               t,
@@ -18803,7 +18771,7 @@ Reporting & Communication`,
                       children: [
                         (0, M.jsx)(`div`, {
                           className: `section-label`,
-                          children: `KEY MODEL HIGHLIGHTS`,
+                          children: `06 RETURN`,
                         }),
                         (0, M.jsx)(`div`, {
                           className: `own-process__highlights-grid`,
@@ -18825,8 +18793,7 @@ Reporting & Communication`,
                                     className: `own-process__highlight-title`,
                                     dangerouslySetInnerHTML: {
                                       __html: e.title.replace(
-                                        `
-`,
+                                        `\n`,
                                         `<br />`,
                                       ),
                                     },
@@ -18839,7 +18806,7 @@ Reporting & Communication`,
                         }),
                         (0, M.jsx)(`div`, {
                           className: `own-process__disclaimer`,
-                          children: `*Usage benefits are subject to final agreement and availability.`,
+                          children: `*The hotel’s yearly suite rental income, after service charge, is pooled and shared among all owners by investment.`,
                         }),
                       ],
                     }),
@@ -18869,15 +18836,15 @@ Reporting & Communication`,
                     children: [
                       (0, M.jsx)(`div`, {
                         className: `section-label`,
-                        children: `IMPORTANT NOTE`,
+                        children: `07 HANDOVER AND DOCUMENTS`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `own-note__text`,
-                        children: `This model is designed for long-term value creation through land ownership, project development, and professional hospitality operation.`,
+                        children: `The suite is handed over, with its ownership and legal documents, only when three things are complete: the full price is paid, construction is finished, and all contractual and legal formalities are done.`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `own-note__text own-note__text--strong`,
-                        children: `All benefits, returns, and usage privileges are subject to:`,
+                        children: `Key milestones, cheques, and terms:`,
                       }),
                       (0, M.jsx)(`ul`, {
                         className: `own-note__list`,
@@ -18909,10 +18876,10 @@ Reporting & Communication`,
                           (0, M.jsxs)(`p`, {
                             children: [
                               (0, M.jsx)(`strong`, {
-                                children: `Projected benefit, not guaranteed return.`,
+                                children: `Registration fees and government charges are additional.`,
                               }),
                               (0, M.jsx)(`br`, {}),
-                              `Subject to final legal, financial, and operational structure.`,
+                              `Return figures are approximate projections and are not guaranteed.`,
                             ],
                           }),
                         ],
@@ -18944,11 +18911,11 @@ Reporting & Communication`,
                     children: [
                       (0, M.jsx)(`div`, {
                         className: `section-label section-label--light`,
-                        children: `READY TO START YOUR OWNERSHIP JOURNEY?`,
+                        children: `SUITE OWNERSHIP | THE NATURE @ COX'S BAZAR`,
                       }),
                       (0, M.jsx)(`h2`, {
                         className: `proj-cta__title`,
-                        children: `Be a Part of a Future 5-Star Resort Destination at Cox's Bazar`,
+                        children: `How Ownership, Payments, Land Registration and Returns Work`,
                       }),
                     ],
                   }),
@@ -18984,164 +18951,174 @@ Reporting & Communication`,
   da = [
   {
     icon: oi,
-    label: `278 Luxury Suites\n8 Categories`,
+    label: `278\nsuites in 8 categories`,
   },
   {
     icon: zr,
-    label: `Registered Land\nDirect Title Deed`,
+    label: `670–1,700\nsq ft per suite`,
   },
   {
     icon: di,
-    label: `Flexible Ownership\nIndividual & Group`,
+    label: `160 Decimals\nLand on Marine Drive`,
   },
   {
     icon: br,
-    label: `13% – 16% ROI\nProjected Annual Yield`,
+    label: `13–16%\napprox. annual return`,
   },
 ],
 fa = [
   {
     icon: Rr,
-    title: `Pooled Revenue Sharing`,
-    desc: `All suite rental revenues across the resort (after service charges) are pooled and distributed proportionally based on each owner's capital investment ratio.`,
+    title: `Pooled Rental Income`,
+    desc: `The hotel's yearly suite rental income, after service charge, is pooled and shared among all owners by investment.`,
   },
   {
     icon: di,
-    title: `Equal Yield Rate`,
-    desc: `Every owner earns the exact same percentage return on their invested capital, maintaining absolute financial fairness across all suite categories.`,
+    title: `Equal Return Rate`,
+    desc: `Each owner gets the same share of the income as their share of the total investment.`,
   },
   {
     icon: Lr,
-    title: `Quarterly Disbursements`,
-    desc: `Owner revenues are audited and disbursed directly on a structured quarterly schedule once commercial hospitality operations commence.`,
+    title: `Quarterly Payouts`,
+    desc: `Payouts: proposed quarterly, starting after the hotel begins commercial operations.`,
   },
   {
     icon: Hr,
-    title: `Stay Privileges`,
-    desc: `Owners retain exclusive personal stay privileges at the resort or can allocate their entire suite inventory into the commercial rental pool.`,
+    title: `Group-Owned Suites`,
+    desc: `Group-owned suites: each co-owner is paid on their own investment, the same way.`,
   },
   {
     icon: br,
-    title: `Capital Appreciation`,
-    desc: `In addition to recurring hospitality yields, owners benefit from the long-term appreciation of 160 decimals of prime Inani beachfront real estate.`,
+    title: `Owner Stay or Hotel Run`,
+    desc: `The owner can stay in it or have it run as part of the hotel and earn a share of hotel income.`,
   },
 ],
 pa = [
   {
     icon: oi,
-    title: `Stage 1: Booking & Agreement (20%)`,
-    desc: `Initial suite allocation and reservation confirmed with the execution of the legal ownership agreement.`,
+    title: `Booking (20% Ind / 20% Group)`,
+    desc: `At booking. Booking at signing. Share of the suite price paid: 20% / 20%.`,
   },
   {
     icon: zr,
-    title: `Stage 2: Land Share Registration (40% / 60%)`,
-    desc: `Proportionate undivided land share officially registered in the buyer's name once 40% (Individual) or 60% (Group) is paid.`,
+    title: `Registration (20% Ind / 40% Group)`,
+    desc: `Suite registered once 40% (individual) or 60% (group) is paid. 14 cheques (3 months each) handed over.`,
   },
   {
     icon: Jr,
-    title: `Stage 3: Foundation Milestone (10%)`,
-    desc: `Construction milestone payment due upon official commencement of site piling and deep foundation engineering.`,
+    title: `Foundation (10% Ind / 10% Group)`,
+    desc: `When foundation work begins. Share of the suite price paid: 50% / 70%.`,
   },
   {
     icon: ai,
-    title: `Stage 4: Construction Installments (50% / 30%)`,
-    desc: `Remaining balance distributed over 42 monthly installments (backed by 14 security cheques) aligned with build progress.`,
+    title: `Installments (50% Ind / 30% Group)`,
+    desc: `42 monthly payments. Share of the suite price paid: 100% / 100%.`,
   },
   {
     icon: hi,
-    title: `Stage 5: Handover & Asset Transfer`,
-    desc: `Full possession handover with complete title documents, deed transfer, and formal integration into resort operations.`,
+    title: `Handover (With documents)`,
+    desc: `Full payment and build complete. Tentative August 2030, with ownership and legal documents.`,
   },
 ],
 finTimeline = [
   {
     phase: `Stage 01`,
     target: `At Booking`,
-    title: `Booking & Documentation`,
-    desc: `Suite reservation with initial booking payment (20%) and execution of the formal ownership agreement.`,
-    tag: `Initiation`,
+    title: `Booking at Signing`,
+    desc: `Booking at signing; initial 20% payment. Agreement sets exact stage due dates.`,
+    tag: `At Booking`,
   },
   {
     phase: `Stage 02`,
     target: `At 40% / 60% Paid`,
-    title: `Land Share Registration`,
-    desc: `Key legal safeguard: Proportionate project land is officially registered in the buyer's/co-owner's name long before completion.`,
-    tag: `Key Safeguard`,
+    title: `Suite & Land Registration`,
+    desc: `The land share is registered in the buyer's name once 40% (individual) or 60% (group) of the price is paid.`,
+    tag: `Key Milestone`,
   },
   {
     phase: `Stage 03`,
     target: `Target: Feb 2027`,
-    title: `Foundation Works`,
-    desc: `Commencement of structural piling and basement foundation engineering on Marine Drive at Inani Beach.`,
-    tag: `Groundbreaking`,
+    title: `Foundation Construction`,
+    desc: `Foundation when foundation construction starts. Construction is planned to start in February 2027.`,
+    tag: `Foundation`,
   },
   {
     phase: `Stage 04`,
-    target: `42 Months Duration`,
-    title: `Build & Superstructure`,
-    desc: `Civil works, MEP installations, and 5-star hospitality fit-outs matched with scheduled monthly installments.`,
-    tag: `Development`,
+    target: `42 Monthly Payments`,
+    title: `42 Monthly Installments`,
+    desc: `50% for individual, 30% for group over 42 months, with 14 security cheques handed over at registration.`,
+    tag: `Installments`,
   },
   {
     phase: `Stage 05`,
     target: `Tentative: Aug 2030`,
-    title: `Handover & Resort Launch`,
-    desc: `Full legal documentation handover, trial operations, commercial resort opening, and start of quarterly payouts.`,
-    tag: `Launch`,
+    title: `Handover & Documents`,
+    desc: `The suite is handed over, with its ownership and legal documents, when full price is paid and construction is finished.`,
+    tag: `Handover`,
   },
 ],
 ma = [
   {
     icon: Lr,
-    title: `Quarterly Distribution Statements`,
-    desc: `Periodic reporting detailing resort room revenues, operational deductions, service fees, and net owner distributions.`,
+    title: `Presidential Suite `,
+    desc: `Size: 1,700 sq ft | Maximum co-owners: 10 (Shares A to J)`,
   },
   {
     icon: br,
-    title: `Occupancy & RevPAR Analytics`,
-    desc: `Regular hospitality audits covering room occupancy rates, seasonal demand trends, and operational benchmarks.`,
+    title: `Superior Suite `,
+    desc: `Size: 1,485 sq ft | Maximum co-owners: 10 (Shares A to J)`,
   },
   {
     icon: di,
-    title: `Maintenance & Reserve Fund`,
-    desc: `Transparent utilization records of reserve funds dedicated to continuous upkeep and 5-star brand maintenance.`,
+    title: `Royal Suite `,
+    desc: `Size: 775 sq ft | Maximum co-owners: 6 (Shares A to F)`,
   },
   {
     icon: Hr,
-    title: `Individual Owner Statement`,
-    desc: `Clear personal statement detailing individual suite ownership proportions and resulting revenue disbursements.`,
+    title: `Elite Suite `,
+    desc: `Size: 720 sq ft | Maximum co-owners: 6 (Shares A to F)`,
   },
   {
     icon: ai,
-    title: `Annual Performance Review`,
-    desc: `Comprehensive yearly review covering resort financial health, asset performance, and upcoming fiscal forecasts.`,
+    title: `Executive Suite`,
+    desc: `Size: 960 sq ft | Maximum co-owners: 6 (Shares A to F)`,
   },
   {
     icon: zr,
-    title: `Independent Audit & Verification`,
-    desc: `External professional chartered audit verifying revenue pooling fairness, compliance, and distribution accuracy.`,
+    title: `Signature Suite`,
+    desc: `Size: 670 sq ft | Maximum co-owners: 6 (Shares A to F)`,
+  },
+  {
+    icon: oi,
+    title: `Grand Suite`,
+    desc: `Size: 825 sq ft | Maximum co-owners: 6 (Shares A to F)`,
+  },
+  {
+    icon: hi,
+    title: `Classic Suite `,
+    desc: `Size: 670 sq ft | Maximum co-owners: 6 (Shares A to F)`,
   },
 ],
 ha = [
   {
     icon: Or,
-    title: `Projected Hospitality Yields`,
-    desc: `The ~13%–16% annual yield is an indicative projection modeled on an assumed 50% average occupancy and does not constitute a fixed bank return.`,
+    title: `Return Projections (13% to 16%)`,
+    desc: `An approximate return of 13% to 16% a year has been calculated, based on an average hotel occupancy of 50% a year.`,
   },
   {
     icon: br,
-    title: `Operational & Market Factors`,
-    desc: `Actual distributions vary with tourism demand, seasonal hospitality occupancy, and overarching market conditions.`,
+    title: `Not Guaranteed Return`,
+    desc: `Actual payouts depend on operating results; the return figures are projections and are not guaranteed.`,
   },
   {
     icon: oi,
-    title: `Payment & Cheque Obligations`,
-    desc: `Registration of the land share does not release the buyer from remaining installment liabilities, secured by scheduled cheques.`,
+    title: `14 Bank Cheques & Balance`,
+    desc: `At registration, the client hands over 14 bank cheques, each covering 3 months of installments. Registering the land share does not release from outstanding payment.`,
   },
   {
     icon: gr,
-    title: `Development Timelines`,
-    desc: `Construction target (Feb 2027) and completion (Aug 2030) are based on the master development schedule subject to standard development factors.`,
+    title: `Handover Prerequisites`,
+    desc: `The suite is handed over, with ownership and legal documents, only when three things are complete: full price is paid, construction is finished, and all legal formalities are done.`,
   },
 ],
 ga = () => {
@@ -19185,28 +19162,23 @@ ga = () => {
                 children: [
                   (0, M.jsx)(`div`, {
                     className: `section-label section-label--light`,
-                    children: `FINANCIAL & BENEFIT MODEL`,
+                    children: `SUITE OWNERSHIP | FINANCIAL & RETURN MODEL`,
                   }),
                   (0, M.jsxs)(`h1`, {
                     className: `fin-hero__title`,
                     children: [
-                      `A Structured Benefit Model`,
+                      `The Nature @ Cox’s Bazar`,
                       (0, M.jsx)(`br`, {}),
-                      `with `,
                       (0, M.jsx)(`span`, {
                         className: `text-gold`,
-                        children: `Transparent Reporting`,
+                        children: `Financial & Return Model`,
                       }),
                     ],
                   }),
                   (0, M.jsxs)(`p`, {
                     className: `fin-hero__desc`,
                     children: [
-                      `The Nature Ownership Model is designed to create long-term value`,
-                      (0, M.jsx)(`br`, {}),
-                      `for owners through registered land deeds, collective revenue sharing,`,
-                      (0, M.jsx)(`br`, {}),
-                      `and professional 5-star hospitality management.`,
+                      `How ownership, payments, land registration and returns work · October 2026`,
                     ],
                   }),
                   (0, M.jsx)(`div`, {
@@ -19258,11 +19230,11 @@ ga = () => {
                     children: [
                       (0, M.jsx)(`h2`, {
                         className: `fin-section-title text-gold`,
-                        children: `1. POOLED BENEFIT MODEL`,
+                        children: `06 RETURN`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `fin-text`,
-                        children: `Net suite rental income across the entire resort is pooled and shared proportionally among all owners based on their investment ratio:`,
+                        children: `The hotel’s yearly suite rental income, after service charge, is pooled and shared among all owners by investment: each owner gets the same share of the income as their share of the total investment.`,
                       }),
                       (0, M.jsxs)(`div`, {
                         className: `fin-table`,
@@ -19316,11 +19288,11 @@ ga = () => {
                     children: [
                       (0, M.jsx)(`h2`, {
                         className: `fin-section-title text-gold`,
-                        children: `2. REVENUE FLOW & DISTRIBUTION`,
+                        children: `RETURN CALCULATION & WATERFALL`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `fin-text`,
-                        children: `Hospitality operations follow a clear, audited cash-flow waterfall with direct quarterly owner disbursements:`,
+                        children: `An approximate return of 13% to 16% a year has been calculated, based on an average hotel occupancy of 50% a year.`,
                       }),
                       (0, M.jsxs)(`div`, {
                         className: `fin-flow__diagram`,
@@ -19482,9 +19454,9 @@ ga = () => {
                           (0, M.jsxs)(`span`, {
                             children: [
                               (0, M.jsx)(`strong`, {
-                                children: `Quarterly Distribution Schedule: `,
+                                children: `Owner’s Return Formula: `,
                               }),
-                              `Distributions commence post-handover after commercial launch, audited and paid every 3 months.`,
+                              `Owner's return = (owner's investment ÷ total investment) × yearly pooled income. Payouts: proposed quarterly.`,
                             ],
                           }),
                         ],
@@ -19509,11 +19481,11 @@ ga = () => {
                     children: [
                       (0, M.jsx)(`h2`, {
                         className: `fin-section-title text-gold`,
-                        children: `3. PAYMENT & REGISTRATION MILESTONES`,
+                        children: `04 PAYMENTS AND LAND REGISTRATION`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `fin-text`,
-                        children: `Structured, milestone-linked payments securing both individual and co-ownership rights:`,
+                        children: `The land share is registered in the buyer’s name once 40% (individual) or 60% (group) of the price is paid; the rest follows over the build.`,
                       }),
                       (0, M.jsxs)(`div`, {
                         className: `fin-table`,
@@ -19568,7 +19540,7 @@ ga = () => {
                             className: `text-gold flex-shrink-0`,
                           }),
                           (0, M.jsx)(`span`, {
-                            children: `Land share registration is officially assigned upon paying 40% (Individual) or 60% (Group), long before physical handover.`,
+                            children: `The stages are: booking at signing; registration before land-share registration; foundation when foundation construction starts; then 42 monthly installments.`,
                           }),
                         ],
                       }),
@@ -19579,11 +19551,11 @@ ga = () => {
                     children: [
                       (0, M.jsx)(`h2`, {
                         className: `fin-section-title text-gold`,
-                        children: `4. REPORTING & ACCOUNTABILITY`,
+                        children: `08 SUITE LINE-UP`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `fin-text`,
-                        children: `We ensure institutional-grade transparency through periodic audits and verified statements:`,
+                        children: `All eight categories. Suite specifications, co-owner capacity, and total inventory (278 suites):`,
                       }),
                       (0, M.jsx)(`div`, {
                         className: `fin-reporting__grid`,
@@ -19623,7 +19595,7 @@ ga = () => {
                             className: `text-gold flex-shrink-0`,
                           }),
                           (0, M.jsx)(`span`, {
-                            children: `All financial reports are certified by external auditors and shared via secure owner channels.`,
+                            children: `Registration fees and government charges are additional. Return figures are approximate projections and are not guaranteed.`,
                           }),
                         ],
                       }),
@@ -19664,7 +19636,7 @@ ga = () => {
                       maxWidth: `720px`,
                       marginBottom: `48px`,
                     },
-                    children: `A structured journey from booking to asset handover, protecting buyer security at every phase without financial guesswork.`,
+                    children: `The suite is handed over, with its ownership and legal documents, only when three things are complete: full price is paid, construction is finished, and all contractual and legal formalities are done.`,
                   }),
                   (0, M.jsx)(`div`, {
                     style: {
@@ -19807,7 +19779,7 @@ ga = () => {
                 children: [
                   (0, M.jsx)(`h2`, {
                     className: `fin-section-title text-gold`,
-                    children: `5. IMPORTANT LEGAL & OPERATIONAL DISCLAIMERS`,
+                    children: `IMPORTANT CONDITIONS & DISCLAIMERS`,
                   }),
                   (0, M.jsx)(`div`, {
                     className: `fin-disclaimers__grid`,
@@ -19870,7 +19842,7 @@ ga = () => {
                       }),
                       (0, M.jsx)(`h2`, {
                         className: `proj-cta__title`,
-                        children: `Build Your Future with The Nature`,
+                        children: `How Ownership, Payments, Land Registration and Returns Work`,
                       }),
                       (0, M.jsx)(`p`, {
                         className: `legal-hero__desc`,
